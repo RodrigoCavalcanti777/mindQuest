@@ -1,0 +1,28 @@
+{
+  "name": "mindquest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:server": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoCavalcanti777/mindQuest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoCavalcanti777/mindQuest/issues"
+  },
+  "homepage": "https://github.com/RodrigoCavalcanti777/mindQuest#readme",
+  "devDependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2"
+  }
+}
