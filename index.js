@@ -6,8 +6,10 @@ app.use(express.json());
 
 
 const createUser = require('../mindQuest/controllers/user');
+const login = require('../mindQuest/controllers/login');
 
 app.use(createUser);
+app.use(login);
 
 app.listen(port, () =>{
 
